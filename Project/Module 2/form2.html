@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<!-- inline,external,external css, type="text/css" -->
+
+<body>
+    <div class="contact-us">
+        <form action="">
+            <label for="customername">NAME <em>&#x2a</em></label>
+            <input id="customername" name="customername" required="" type="text">
+            <label for="customeremail">EMAIL<em>&#x2a</em></label>
+            <input id="customeremail" name="customeremail" required="" type="email">
+            <label for="customerphone">PHONE</label>
+            <input id="customerphone" name="customerphone" required="" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+            <label for="ordernumber">ORDER NUMBER </label>
+            <input id="ordernumber" name="ordernumber" required="" type="text">
+            <label for="customernote">YOUR MESSAGE<em>&#x2a</em></label>
+            <textarea name="customernote" id="customernote" rows="4" required=""></textarea>
+            <h3>Please Provide all the information about your issue you can.</h3>
+            <label for="spamprotection">SPAM PROTECTION<em>&#x2a</em>
+                <span>&nbsp;&nbsp;&nbsp;&nbsp; What day comes before July 11nth?</span>
+            </label>
+            <input type="text" name="spamprotection" id="spamprotection">
+            <button id="customerorder">SUBMIT</button>
+        </form>
+    </div>
+</body>
+
+</html>

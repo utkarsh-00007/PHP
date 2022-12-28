@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="config.php" method="post">
+        <table>
+            <tr>
+                <td>
+                    <label for="">Enter ID To delete or Update:</label>
+                </td>
+                <td>
+                    <input type="number" name="id" placeholder="Enter ID" autocomplete="off">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Enter your Name :</label>
+                </td>
+                <td>
+                    <input type="text" name="uname" placeholder="Enter Name" autocomplete="off">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Enter your Password : </label>
+                </td>
+                <td>
+                    <input type="password" name="psw" placeholder="Enter Password">
+                </td>
+            </tr>
+        </table>
+        <input type="submit" name="save" value="Login">
+        <input type="submit" name="display" value="Display">
+        <input type="submit" name="delete" value="Delete">
+        <input type="submit" name="update" value="Update">
+    </form>
+</body>
+</html>
